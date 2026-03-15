@@ -6,7 +6,7 @@ A fully responsive e-commerce website built using **HTML**, **CSS**, and **JavaS
 
 ## 🌐 Live Demo
 
-[View Live Site](https://errormakesclever.github.io/Nostra-Ecommerce-Js/index.html)
+https://nagendrana.github.io/Nostra-Ecommerce/
 
 ---
 
