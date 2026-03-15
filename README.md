@@ -8,6 +8,9 @@ A fully responsive e-commerce website built using **HTML**, **CSS**, and **JavaS
 
 https://nagendrana.github.io/Nostra-Ecommerce/
 
+## 🌐 Repo 
+
+https://github.com/Nagendrana/Nostra-Ecommerce.git
 ---
 
 ## 📁 Project Structure
