@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- OFFER BAR -->
+    <div class="offer-bar">
+        Sign Up and <b>GET 20% OFF</b> for your first Order
+        <i id="offer-close" class="fa-solid fa-xmark offer-close"></i>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h1><a href="index.html" class="logo">Nostra</a></h1>
+        <div class="navbar-links nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="collections.html">Collections</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="collections.html">Collections</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="container">
+
+        <!-- HERO SLIDER -->
+        <section id="home">
+            <div class="slider">
+                <div class="slider-left-button">
+                    <i id="slider-left-activate" class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="slider-content">
+                    <h1>Level up your style</h1>
+                    <h4>Summer Collections</h4>
+                    <button class="shop-btn">Shop Now</button>
+                </div>
+                <div class="slider-image-container">
+                    <img class="slider-image" src="https://images.unsplash.com/photo-1617137968427-85924c800a22?w=1600&q=80" alt="Men Fashion">
+                    <img class="slider-image" src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1600&q=80" alt="Women Fashion">
+                    <img class="slider-image" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80" alt="Premium Fashion">
+                </div>
+                <div class="slider-right-button">
+                    <i id="slider-right-activate" class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW ARRIVALS -->
+        <h2 class="section-title" id="new-arrival">New Arrivals</h2>
+        <div class="products-grid">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80" alt="Men Oversized Tee">
+                <p>Oversized Graphic Tee</p>
+                <p class="product-price">₹1,299</p>
+                <button class="shop-btn">Shop Now</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80" alt="Women Floral Dress">
+                <p>Floral Mini Dress</p>
+                <p class="product-price">₹1,999</p>
+                <button class="shop-btn">Shop Now</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80" alt="Men Street Shirt">
+                <p>Street Style Shirt</p>
+                <p class="product-price">₹1,499</p>
+                <button class="shop-btn">Shop Now</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&q=80" alt="Women Co-ord Set">
+                <p>Summer Co-ord Set</p>
+                <p class="product-price">₹2,199</p>
+                <button class="shop-btn">Shop Now</button>
+            </div>
+        </div>
+
+        <!-- MOST WANTED -->
+        <h2 class="section-title" id="most-wanted">Most Wanted</h2>
+        <div class="products-grid">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1604695573706-53170668f6a6?w=600&q=80" alt="Men Denim Jacket">
+                <p>Vintage Denim Jacket</p>
+                <p class="product-price">₹3,499</p>
+                <button class="shop-btn">Shop Now</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80" alt="Women Wrap Dress">
+                <p>Chic Wrap Dress</p>
+                <p class="product-price">₹2,799</p>
+                <button class="shop-btn">Shop Now</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=600&q=80" alt="Women Linen Blouse">
+                <p>Premium Linen Blouse</p>
+                <p class="product-price">₹3,199</p>
+                <button class="shop-btn">Shop Now</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=600&q=80" alt="Men Casual Shirt">
+                <p>Casual Linen Shirt</p>
+                <p class="product-price">₹1,799</p>
+                <button class="shop-btn">Shop Now</button>
+            </div>
+        </div>
+
+        <!-- COLLECTIONS — Men / Women / Accessories -->
+        <h2 class="section-title" id="collections">Collections</h2>
+        <div class="products-grid collections-three">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?w=600&q=80" alt="Men">
+                <p>Men</p>
+                <button class="shop-btn" onclick="window.location.href='collections.html?filter=men'">Shop Now</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&q=80" alt="Women">
+                <p>Women</p>
+                <button class="shop-btn" onclick="window.location.href='collections.html?filter=women'">Shop Now</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1523779917675-b6ed3a42a561?w=600&q=80" alt="Accessories">
+                <p>Accessories</p>
+                <button class="shop-btn" onclick="window.location.href='collections.html?filter=accessories'">Shop Now</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h2>Nostra</h2>
+                <p>Fashion that defines your personality. Wear the story you want to tell.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h5>Quick Links</h5>
+                <a href="index.html">Home</a>
+                <a href="collections.html">Collections</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h5>Categories</h5>
+                <a href="collections.html?filter=men">Men</a>
+                <a href="collections.html?filter=women">Women</a>
+                <a href="collections.html?filter=accessories">Accessories</a>
+            </div>
+            <div class="footer-newsletter">
+                <h5>Newsletter</h5>
+                <p>Get exclusive deals in your inbox.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button>→</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Nostra. All rights reserved.</p>
+            <p>Designed with ♥ for fashion lovers.</p>
+        </div>
+    </footer>
+
+    <div class="toast" id="cartToast"></div>
+    <script src="script.js"></script>
+</body>
+</html>
